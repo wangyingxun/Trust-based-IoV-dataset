@@ -42,9 +42,9 @@ The envisaged trust-based IoV dataset comprises a total of 1,048,576 interaction
 # Partial values pertinent to trust parameters, i.e., Interaction Experience, Interaction Frequency, Interaction Timeliness, and Received Message Quality, and labels, i.e., MaliciousVehicle and IsAttacking.
 | Trustor | Trustee | Interaction Experience  |Interaction Frequency| Interaction Timeliness| Received Message Quality |MaliciousVehicle | IsAttacking| 
 | :------: |  :----:  | :-------:| :------: | :----: | :------: |:------: | :----: | 
-|0|8|1.000|0.500|1.000|1.000|1.0000|No|No|
-|0|10|0.9625|0.9047|1|0.8094|0.6083|1.0000|
-|0|78|0.7849|0.2117|0|0.4235|0.6138|1.0000|
+|0|8|1.000|0.500|1.000|1.000|No|No|
+|0|24|0.400|0.143|1.000|0.600|No|No|
+|0|92|0.800|0.071|1.000|0.800|No|No|
 |.|.|.|.|.|.|.|.|.|
 
 
