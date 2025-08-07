@@ -13,3 +13,21 @@ As of date, there remains a significant lack of publicly available trust-based I
 
 The motivation for designing this trust-based IoV dataset arises from the growing demand for secure and reliable communication in an IoV network. As vehicles increasingly depend on V2X communication, trust management becomes indispensable for preventing internal malicious behaviors in a bid to ensure traffic safety, while also enhancing data integrity, preventing the dissemination of false information, supporting secure decision-making, and improving network reliability. Owing to the highly dynamic and transient nature of an IoV network, conventional security models often fail to address the unique requirements of an IoV network. This trust-based IoV dataset has been, therefore, designed for assessing the trustworthiness for dynamic and transient interactions between vehicles in an IoV network. Accordingly, a realistic driving scenario under various dynamic traffic conditions has been simulated for envisaging the trust-based IoV dataset and by particularly incorporating both trustworthy and malicious behaviors. This dataset includes four salient trust parameters, i.e., interaction experience, interaction frequency, interaction timeliness, and received message equality, to support both conventional weighted and a learning-based approach, thereby offering researchers a standardized benchmark for evaluating their respective trust models for improving the resilience of an IoV network.
 
+# Data Description
+
+Over the past decade or so, the notion of trust has gained increasing attention of researchers from both academia and industry. Accordingly, the manuscript-at-hand presents an IoV simulator envisaged via Java, SUMO, and OpenStreetMap. To ensure data authenticity, the proposed IoV simulator incorporates both trustworthy and malicious vehicles, which dynamically switch between trustworthy and untrustworthy behaviors to execute trust-based attacks and evade detection by the trust model within the IoV network.
+
+The envisaged trust-based IoV dataset comprises a total of 1,048,576 interactions among 96 (trustors and trustees) vehicles at different time instances, which includes both positive and negative interactions. The dataset has been made publicly available on GitHub in CSV format and contains 10 columns, i.e., Interaction Time, Trustor, Trustee, four trust parameters (interaction experience, interaction frequency, interaction timeliness, and received message quality), Total Trust, and two labels (MaliciousVehicle and IsAttacking). The key columns are outlined in detail as follows:
+
+**Trustor** - The trust between vehicles in an IoV network is ascertained by integrating multiple trust parameters which are primarily quantified based on the relationship between them. Accordingly, the vehicle that intends to act as an evaluator in a bid to assess and determine the trustworthiness of a target vehicle is referred to as a trustor. The same is depicted in the second column of our envisaged trust-based IoV dataset.
+
+**Trustee** - The target vehicle, i.e., the one whose trustworthiness is being ascertained, is referred to a trustee. In our envisaged trust-based IoV dataset, trustees have been delineated in the third column. It is pertinent to mention that 94 trustees have engaged in a total of 1,048,576 interactions with trustors in the context of the said dataset.
+
+**Interaction Experience (IExp)** - Interaction Experience (0=< IExp <=1) manifests the interaction-based history between a trustor and a trustee in an IoV network, and is, therefore, measured at a time instance t by taking into account the proportion of the total number of positive interactions between a trustor and a trustee vis-à-vis the total number of interactions amongst them up to that particular time. IExp is presented in the column four of our envisaged trust-based IoV dataset.
+
+**Interaction Frequency (IFre)** - 
+
+
+
+
+
