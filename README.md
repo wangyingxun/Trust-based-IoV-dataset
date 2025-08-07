@@ -39,13 +39,13 @@ The envisaged trust-based IoV dataset comprises a total of 1,048,576 interaction
 
 # Experimental Design, Materials and Methods
 
-# Partial values pertinent to trust parameters, i.e., Interaction Experience -- IExp, Interaction Frequency -- IFre, Interaction Timeliness -- ITim, and Received Message Quality -- RMQ, and labels, i.e., MaliciousVehicle and IsAttacking.
-| Trustor | Trustee | Packet Delivery Ratio  |Similarity | External Similarity| Internal Similarity |Familiarity | External Familiarity| Internal Familiarity |  Reward / Punishment | Context |
-| :------: |  :----:  | :-------:| :------: | :----: | :------: |:------: | :----: | :-------: | :----: | :-------: |
-|0|1|0.7113|0.6833|1|0.3666|0.6801|1.0000|0.3602|0.5329|0.6|
-|0|10|0.9625|0.9047|1|0.8094|0.6083|1.0000|0.2166|0.9271|0.8|
-|0|78|0.7849|0.2117|0|0.4235|0.6138|1.0000|0.2276|0.6330|0.4|
-|.|.|.|.|.|.|.|.|.|.|.|
+# Partial values pertinent to trust parameters, i.e., Interaction Experience, Interaction Frequency, Interaction Timeliness, and Received Message Quality, and labels, i.e., MaliciousVehicle and IsAttacking.
+| Trustor | Trustee | Interaction Experience  |Interaction Frequency| Interaction Timeliness| Received Message Quality |MaliciousVehicle | IsAttacking| 
+| :------: |  :----:  | :-------:| :------: | :----: | :------: |:------: | :----: | 
+|0|1|0.7113|0.6833|1|0.3666|0.6801|1.0000|
+|0|10|0.9625|0.9047|1|0.8094|0.6083|1.0000|
+|0|78|0.7849|0.2117|0|0.4235|0.6138|1.0000|
+|.|.|.|.|.|.|.|.|.|
 
 
 
