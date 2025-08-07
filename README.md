@@ -5,3 +5,7 @@ As of date, there remains a significant lack of publicly available trust-based I
 
 • This particular IoV dataset is well-suited for assessing the trustworthiness of vehicles in an IoV network. By weighted aggregation of the trust parameters, i.e., interaction experience, interaction frequency, interaction timeliness, and received message quality, a total trust value can be ascertained for each vehicle at each time instance. If the total trust value for a particular vehicle exceeds the stipulated trust threshold, it is classified as trustworthy or untrustworthy otherwise. Trust parameters can also be analyzed via intelligent learning-based algorithms and the classification pertinent to trustworthy and untrustworthy vehicles can be effectively distinguished via an optimal decision boundary. 
 
+• This dataset encompasses the simulation of various trust-based attacks, i.e., on-off attacks, self-promoting attacks, and opportunistic attacks, thereby assisting researchers from both academia and industry to validate the robustness of their respective IoV-based trust mechanisms.
+
+• This particular IoV dataset has a potential to be employed for trustworthy participant selection in the context of federated learning frameworks. It is pertinent to highlight here that only reliable participants can ensure the integrity and reliability of this collaborative learning approach, and reduce the risks associated with the data poisoning attacks.
+
