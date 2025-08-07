@@ -25,7 +25,19 @@ The envisaged trust-based IoV dataset comprises a total of 1,048,576 interaction
 
 **Interaction Experience (IExp)** - Interaction Experience (0=< IExp <=1) manifests the interaction-based history between a trustor and a trustee in an IoV network, and is, therefore, measured at a time instance t by taking into account the proportion of the total number of positive interactions between a trustor and a trustee vis-à-vis the total number of interactions amongst them up to that particular time. IExp is presented in the column four of our envisaged trust-based IoV dataset.
 
-**Interaction Frequency (IFre)** - 
+**Interaction Frequency (IFre)** - Interaction Frequency (0=< IFre <=1) suggests how often a trustor interacts with a trustee at a time instance t, and is quantified by taking into consideration the ratio of the total number of interactions between a trustor and a trustee to the total number of interactions a trustor has experienced with all the other trustees up to the particular time. A higher interaction frequency between a trustor and a trustee thus facilitates in ascertaining the true nature of a trustee. IFre is depicted in the column five of our envisaged trust-based IoV dataset.
+
+**Interaction Timeliness (ITim)** - Interaction Timeliness (0=< ITim <=1) signifies the time of interaction between a trustor and a trustee, i.e., relative to the current time instance. Due to the inherent highly dynamic nature of an IoV network, it is of the essence to assign more significance to the recent interactions in contrast to the old interactions. Accordingly, in the design of this IoV simulator, considerable attention was accorded to this particular parameter. ITim is illustrated in the column six of our envisaged trust-based IoV dataset.
+
+**Received Message Quality (RMQ)** - Received Message Quality (0=< RMQ <=1) primarily depends on the network communication quality within an IoV network and, therefore, has a direct impact on the quality of messages that a trustee receives from a trustor at time instance t. A higher network communication quality typically suggests that a trustor can ascertain the trustworthy of a trustee in a more precise manner. RMQ is outlined in the column seven of our envisaged trust-based IoV dataset.
+
+**Total Trust** - The total trust of a particular vehicle in an IoV network is quantified via the above mentioned four trust parameters, i.e., interaction experience, interaction frequency, interaction timeliness, and received message quality. In our envisaged trust-based IoV dataset, a weighted sum approach has been employed to aggregate the said trust parameters. When the total trust of a particular vehicle exceeds the stipulated threshold, the said vehicle is considered trustworthy, otherwise, it is deemed untrustworthy. Furthermore, the total trust value can also be used to evaluate a vehicle’s behavior over time, i.e., by detecting temporal changes in a vehicle's behavior, different types of trust-based attacks instigated by the said vehicle, if malicious, can be identified. This, therefore, enables the detection and subsequent eviction of malicious vehicles from an IoV network. The total Trust is depicted in the column eight of our envisaged trust-based IoV dataset.
+
+**MaliciousVehicle** - 
+
+**IsAttacking** - 
+
+
 
 
 
