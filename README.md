@@ -15,7 +15,7 @@ The motivation for designing this trust-based IoV dataset arises from the growin
 
 # Data Description
 
-Over the past decade or so, the notion of trust has gained increasing attention of researchers from both academia and industry. Accordingly, the manuscript-at-hand presents an IoV simulator envisaged via Java, SUMO, and OpenStreetMap. To ensure data authenticity, the proposed IoV simulator incorporates both trustworthy and malicious vehicles, which dynamically switch between trustworthy and untrustworthy behaviors to execute trust-based attacks and evade detection by the trust model within the IoV network.
+Over the past decade or so, the notion of trust has gained increasing attention of researchers from both academia and industry. Accordingly, the manuscript-at-hand presents an IoV simulator envisaged via Java. To ensure data authenticity, the proposed IoV simulator incorporates both trustworthy and malicious vehicles, which dynamically switch between trustworthy and untrustworthy behaviors to execute trust-based attacks and evade detection by the trust model within the IoV network.
 
 The envisaged trust-based IoV dataset comprises a total of 1,048,576 interactions among 96 (trustors and trustees) vehicles at different time instances, which includes both positive and negative interactions. The dataset has been made publicly available on GitHub in CSV format and contains 10 columns, i.e., Interaction Time, Trustor, Trustee, four trust parameters (interaction experience, interaction frequency, interaction timeliness, and received message quality), Total Trust, and two labels (MaliciousVehicle and IsAttacking). The key columns are outlined in detail as follows:
 
