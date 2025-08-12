@@ -1,21 +1,5 @@
 # Trust — IoV: An Open Benchmark Dataset for Trust Management in the Internet of Vehicles
 
-
-<p align="center">
-    <img src="fig2.png" alt="The total trust score of vehicle 84 over each of the 10 time instances."
-      width="400"/>
-</p>
-
-<p align="center">
-    <img src="fig3.png" alt="The total trust score of vehicle 87 over each of the 10 time instances."
-      width="400"/>
-</p>
-
-<p align="center">
-    <img src="fig4.png" alt="The total trust score of vehicle 91 over each of the 10 time instances."
-      width="400"/>
-</p>
-
 # A specimen of the envisaged trust-based IoV dataset encompassing the trust parameters and labels.
 | Trustor | Trustee | Interaction Experience  |Interaction Frequency| Interaction Timeliness| Received Message Quality |MaliciousVehicle | IsAttacking| 
 | :------: |  :----:  | :-------:| :------: | :----: | :------: |:------: | :----: | 
