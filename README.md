@@ -1,4 +1,4 @@
-# Trust —— IoV: An Open Benchmark Dataset for Trust Management in the Internet of Vehicles
+# Trust — IoV: An Open Benchmark Dataset for Trust Management in the Internet of Vehicles
 
 # A specimen of the envisaged trust-based IoV dataset encompassing the trust parameters and labels.
 | Trustor | Trustee | Interaction Experience  |Interaction Frequency| Interaction Timeliness| Received Message Quality |MaliciousVehicle | IsAttacking| 
