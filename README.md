@@ -1,9 +1,5 @@
 # Trust — IoV: An Open Benchmark Dataset for Trust Management in the Internet of Vehicles
 
-<p align="center">
-    <img src="fig1.png" alt="A realistic urban scenario of Shenzhen, Guangdong Province, P. R. China."
-      width="600"/>
-</p>
 
 <p align="center">
     <img src="fig2.png" alt="The total trust score of vehicle 84 over each of the 10 time instances."
