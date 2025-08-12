@@ -2,7 +2,7 @@
 
 <p align="center">
     <img src="fig1.png" alt="A realistic urban scenario of Shenzhen, Guangdong Province, P. R. China."
-      width="700"/>
+      width="600"/>
 </p>
 
 <p align="center">
